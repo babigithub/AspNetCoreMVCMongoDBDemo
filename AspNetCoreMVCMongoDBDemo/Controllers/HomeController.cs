@@ -14,7 +14,7 @@ namespace AspNetCoreMVCMongoDBDemo.Controllers
 		//Generic method to get the mongodb database details
 		public IMongoDatabase GetMongoDatabase()
 		{
-			var mongoClient = new MongoClient("mongodb://localhost:27017");
+			var mongoClient = new MongoClient("mongodb://34.227.115.202:27017");
 			return mongoClient.GetDatabase("CustomerDB");
 		}
 
